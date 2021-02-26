@@ -1,0 +1,21 @@
+@import 'vars';
+
+html, body {
+  background: $background-color;
+  height: 100%;
+} 
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  p {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 5px 20px;
+  }
+}
